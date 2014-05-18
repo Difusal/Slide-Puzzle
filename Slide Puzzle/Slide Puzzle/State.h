@@ -2,8 +2,7 @@
 
 #include "stdIncludes.h"
 
-class State
-{
+class State {
 public:
 	virtual void Initialize() = 0;
 	virtual bool Update(ALLEGRO_EVENT * ev) = 0;

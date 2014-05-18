@@ -1,5 +1,5 @@
 #include "StateControl.h"
-#include "state.h"
+#include "State.h"
 
 #include "MainMenuState.h"
 #include "ChooseSizeState.h"
@@ -24,9 +24,9 @@ void StateControl::Initialize()
 {
 	cout << endl;
 	cout << "    ----------------     " << endl;
-	cout << "  ´                   `  " << endl;
+	cout << "  ï¿½                   `  " << endl;
 	cout << "<     STARTING GAME     >" << endl;	
-	cout << "  `                   ´  " << endl;
+	cout << "  `                   ï¿½  " << endl;
 	cout << "    ----------------     " << endl;
 	cout << endl;
 	cout << "-------------" << endl;

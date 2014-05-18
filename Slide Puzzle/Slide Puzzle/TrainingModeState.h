@@ -12,10 +12,10 @@ public:
 	virtual void Terminate();
 
 	int wasd_search_piece_to_move (const vector<vector<int> > & game_board, int blank_x, int blank_y, const string & direction);
-	vector<vector<int> > move_piece (vector<vector<int> > & game_board, int piece);
+	vector<vector<int> > move_piece (vector<vector<int> > &game_board, int piece);
 	vector<vector<int> > start_game_board_vector (int board_size);
 	vector<vector<int> > create_new_board (int board_size, int add_to_shuffle_moves);
-	vector<vector<int> > shuffle_board (vector<vector<int> > & game_board, int add_to_shuffle_moves);
+	vector<vector<int> > shuffle_board (vector<vector<int> > &game_board, int add_to_shuffle_moves);
 
 private:
 	vector<vector<int> > win_vector;
